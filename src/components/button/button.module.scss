@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.button {
+  padding: 10px;
+  background-color: white;
+  color: $primaryColor;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 2px solid $primaryColor;
+  cursor: pointer;
+  outline-color: $gray;
+  width: max-content;
+  display: block;
+
+  margin: 0 30px;
+  a {
+    text-decoration: none;
+    color: $primaryColor;
+  }
+
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-2px) scale(1.08);
+}
+
+.button:active {
+  transform: translateY(-3px) scale(0.8);
+}

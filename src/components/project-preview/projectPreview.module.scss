@@ -1,0 +1,74 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.projectPreview {
+  width: 300px;
+  color: $gray;
+  margin: 20px auto;
+  box-shadow: 2px 2px 10px 1px rgba(black, 0.3);
+  border-radius: 5px;
+  position: relative;
+  text-decoration: none;
+
+  h2 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+
+  a {
+    color: $gray;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+
+  .viewProject {
+    color: $primaryColor;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+.details {
+  padding: 30px;
+}
+
+.list {
+  list-style: none;
+}
+
+.projectPreview:hover .viewProject {
+  transform: scale(1.08) translateY(-6px);
+}
+
+
+@include big-phone {
+  .projectPreview {
+    width: 300px;
+
+    h2 {
+      font-size: 18px;
+    }
+
+    .list {
+      margin-top: 10px;
+    }
+  }
+
+  .list,
+  .viewProject {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .projectPreview {
+    width: 280px;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../styles/mixins";
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.mainContent {
+  margin: 3rem auto;
+  grid-column: 2;
+}
+
+@include tablet-portrait {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
