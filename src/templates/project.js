@@ -26,6 +26,7 @@ query ($slug: String) {
       author
       description
       titleTemplate
+      image
     }
   }
 }
@@ -44,7 +45,7 @@ function ProjectTemplate({ data }) {
 
   return (
     <div>
-      <SEO title={metaData.title} author={metaData.author} titleTemplate={metaData.titleTemplate} description={metaData.description}/>
+      <SEO title={metaData.title} author={metaData.author} titleTemplate={metaData.titleTemplate} description={metaData.description} image={metaData.image}/>
 
       <Project
         title={title}

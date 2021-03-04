@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 
-function SEO({ description, lang, meta, title, titleTemplate, author }) {
+function SEO({ description, lang, meta, title, titleTemplate, author, image}) {
   return (
     <Helmet
       htmlAttributes={{
@@ -26,6 +26,10 @@ function SEO({ description, lang, meta, title, titleTemplate, author }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          name: `og:image`,
+          content: image,
         },
         {
           name: `twitter:card`,

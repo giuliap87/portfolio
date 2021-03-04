@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Giulia Piras'Portfolio",
+    title: "Giulia Piras' Portfolio",
     titleTemplate: "%s | My projects",
     author: "Giulia Piras",
     description:

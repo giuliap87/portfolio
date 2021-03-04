@@ -31,6 +31,7 @@ export default function Home() {
           title
           author
           description
+          image
           titleTemplate
         }
       }
@@ -41,7 +42,7 @@ export default function Home() {
   const metaData = data.site.siteMetadata
   return (
     <Layout>
-      <SEO title={metaData.title} author={metaData.author} titleTemplate={metaData.titleTemplate} description={metaData.description}/>
+      <SEO title={metaData.title} author={metaData.author} titleTemplate={metaData.titleTemplate} description={metaData.description} image={metaData.image}/>
       <main>
         <Paragraph alignment="left">
           From the moment I dove into <span>web-development</span>, I was
@@ -67,7 +68,7 @@ export default function Home() {
           (Redux), NextJs, Gatsby, Sass, CSS in JS, CSS Modules, Material UI,
           Bootstrap, Reactstrap.
           <br />
-          <span>Back end Technologies:</span> Node.js, Express, MongoDB.
+          <span>Back End Technologies:</span> Node.js, Express, MongoDB.
         </Paragraph>
 
         <div
