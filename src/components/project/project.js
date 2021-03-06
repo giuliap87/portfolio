@@ -13,7 +13,7 @@ function Project({
 }) {
   return (
     <div className={styles.projectContainer}>
-      <Link to="/" className={styles.back}>
+      <Link to="/#projects" className={styles.back}>
         &larr; Back to home
       </Link>
 

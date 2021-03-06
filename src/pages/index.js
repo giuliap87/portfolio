@@ -80,7 +80,7 @@ export default function Home() {
         ></div>
 
         <Paragraph>
-          <span>Recent work</span>
+          <span id="projects">Recent work</span>
         </Paragraph>
         <CardsContainer projects={projects} />
       </main>

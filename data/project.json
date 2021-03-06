@@ -4,17 +4,15 @@
     "slug": "project-1",
     "url": "https://github.com/giuliap87/so-pack",
     "image": "./images/sopackMockup.png",
-    "description": "The aim of this project was to get familiar with the Next JS framework and build a fully functioning website in React. The website is for a French company that can help you creating your own perfumes and cosmetics. From the filling to the packaging and delivery. The website has a main page with some information about the company and their products and 2 other pages, one about packaging and one describing the full creating process and the services they provide. This project is still ongoing. You can see a deployed version at: ",
+    "description": "The aim of this project was to get familiar with the Next JS framework and build a fully functioning website in React. The website is for a French company that can help you create your own perfumes and cosmetics, from filling to packaging and delivery. The website has a main page with some information about the company and their products and 2 other pages: one about packaging and one describing the full creation process and the services they provide. This project is still ongoing. You can see a deployed version at: ",
     "website": "https://so-pack.vercel.app",
-    "technologies": ["HTML", "CSS/Scss/CSS Modules", "JavaScript", "React"]
-  },
-  {
-    "title": "Image Gallery",
-    "slug": "project-2",
-    "url": "https://github.com/giuliap87/gallery-react-redux",
-    "image": "./images/galleryMockup.png",
-    "description": "The aim of this project was to get familiar with Redux and Material UI (especially with styles and custom components). The project consists in an image gallery to which the user can apply some cool filters.",
-    "technologies": ["HTML", "CSS/CSS Modules", "JavaScript", "React", "Redux"]
+    "technologies": [
+      "HTML",
+      "CSS/Scss/CSS Modules",
+      "JavaScript",
+      "React",
+      "Next.js"
+    ]
   },
   {
     "title": "Sticky Notes App",
@@ -29,7 +27,22 @@
     "slug": "project-4",
     "url": "https://github.com/giuliap87/portfolio",
     "image": "./images/portfolioMockup.png",
-    "description": "I built this project using Gatsby as I wanted to learn something new while building something I needed. The data in this project is pulled into my components using GraphQL and the projects' pages are programmatically created from the data obtained from my GraphQL queries, then map into my page template.",
-    "technologies": ["HTML", "CSS", "JavaScript", "React", "Gatsby", "GraphQL"]
+    "description": "I built this project using Gatsby as I wanted to learn something new while building something I needed. The data in this project is pulled into my components using GraphQL and the projects' pages are programmatically created from the data obtained from my GraphQL queries and then mapped into my page template.",
+    "technologies": [
+      "HTML",
+      "CSS, Scss",
+      "JavaScript",
+      "React",
+      "Gatsby",
+      "GraphQL"
+    ]
+  },
+  {
+    "title": "Image Gallery",
+    "slug": "project-2",
+    "url": "https://github.com/giuliap87/gallery-react-redux",
+    "image": "./images/galleryMockup.png",
+    "description": "The aim of this project was to get familiar with Redux and Material UI (especially with styles and custom components). The project consists of an image gallery to which the user can apply some cool filters.",
+    "technologies": ["HTML", "CSS/CSS Modules", "JavaScript", "React", "Redux"]
   }
 ]

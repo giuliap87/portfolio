@@ -2,15 +2,18 @@ import React from "react"
 import styles from "./header.module.scss"
 import avatar from "../../../data/images/avatar.jpg"
 import { ImGithub, ImLinkedin, ImEnvelop } from "react-icons/im"
+import { Link } from "gatsby"
 
 function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.block1}>
-        <img src={avatar} alt="avatar" className={styles.avatar} />
+        <Link to="/">
+          <img src={avatar} alt="avatar" className={styles.avatar} />
+        </Link>
         <h1 className={styles.hello}>Hello, World!</h1>
         <p className={styles.description}>
-          My name is <strong>Giulia Piras</strong>, I am a front end developer
+          My name is <strong>Giulia Piras</strong>. I am a front end developer
           based in Berlin, Germany.
         </p>
       </div>
