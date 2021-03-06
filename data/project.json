@@ -8,7 +8,7 @@
     "website": "https://so-pack.vercel.app",
     "technologies": [
       "HTML",
-      "CSS/Scss/CSS Modules",
+      "CSS/Sass/CSS Modules",
       "JavaScript",
       "React",
       "Next.js"
@@ -30,7 +30,7 @@
     "description": "I built this project using Gatsby as I wanted to learn something new while building something I needed. The data in this project is pulled into my components using GraphQL and the projects' pages are programmatically created from the data obtained from my GraphQL queries and then mapped into my page template.",
     "technologies": [
       "HTML",
-      "CSS, Scss",
+      "CSS, Sass, CSS Modules",
       "JavaScript",
       "React",
       "Gatsby",
