@@ -17,6 +17,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-splitbee`,
+      options: {
+        includeInDevelopment: false,
+        delayTimeout: 0,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `project`,
@@ -43,6 +50,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-transition-link`
+    `gatsby-plugin-transition-link`,
   ],
 }
